@@ -17,3 +17,8 @@ def get_banner_info():
 @api.route('/get_article_info/')
 def get_article_info():
     return json.dumps(query_article_info(), ensure_ascii=False)
+
+
+@api.route('/get_near_info/')
+def get_near_info():
+    return json.dumps(query_near_info(), ensure_ascii=False)

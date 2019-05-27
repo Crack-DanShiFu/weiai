@@ -10,3 +10,8 @@ def index():
 @auth.route('/me')
 def me():
     return render_template('me.html')
+
+
+@auth.route('/login')
+def login():
+    return render_template('login.html')

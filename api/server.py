@@ -54,3 +54,19 @@ def query_article_info():
             'Release_time': str(i.Release_time)
         })
     return {'result': entity_article_info}
+
+
+def query_near_info():
+    img_info_near = db.session.query(ImageInfo).filter(
+        ImageInfo.src_type.in_(['near_img', 'community_img', 'post_house'])).all()
+    entity_near_info = {'near_img': [], 'community_img': [], 'post_house': []}
+    for i in img_info_near:
+        entity_near_info[i.src_type].append({
+            'id': i.id,
+            'src_url': i.src_url,
+            'url': i.url,
+            'size': i.size,
+            'remark': i.remark,
+            'src_type': i.src_type,
+        })
+    return {'result': entity_near_info}

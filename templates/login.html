@@ -8,9 +8,15 @@
     <style type="text/css">
     </style>
     <script>
-        (function(i,s,o,g,r,a,m) {
-            i['KZAnalyticsObject'] = r; i[r] = i[r] || function() {(i[r].q = i[r].q || []).push(arguments);};
-            a = s.createElement(o); m = s.getElementsByTagName(o)[0]; a.sync = 1; a.src = g;
+        (function (i, s, o, g, r, a, m) {
+            i['KZAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments);
+            };
+            a = s.createElement(o);
+            m = s.getElementsByTagName(o)[0];
+            a.sync = 1;
+            a.src = g;
             m.parentNode.insertBefore(a, m);
         })(window, document, "script", "//pv.kuaizhan.com/kzcollector.min.js?version=0.3", "kaq");
     </script>
@@ -22,17 +28,17 @@
 
         window.addEventListener('resize', function () {
             var width = Math.min(document.documentElement.clientWidth, 640);
-            html.style.fontSize = width / 750 * 100  + 'px';
+            html.style.fontSize = width / 750 * 100 + 'px';
         });
     </script>
 
     <script type="text/javascript">
         var SOHUZ = {
-            "wwwurl":"//www.kuaizhan.com",
-            "staticurl":"//cdn.kuaizhan.com",
-            "pfileurl":"//pfile.kuaizhan.com",
-            "cluburl":"//club.kuaizhan.com",
-            "page":{},
+            "wwwurl": "//www.kuaizhan.com",
+            "staticurl": "//cdn.kuaizhan.com",
+            "pfileurl": "//pfile.kuaizhan.com",
+            "cluburl": "//club.kuaizhan.com",
+            "page": {},
             "api": {},
             "current_user": null
         };
@@ -46,13 +52,131 @@
         SOHUZ.api.page_info = {};
 
 
-        SOHUZ['loginChannel'] = {"qq": true, "wx_auto": true, "ctime": "2018-03-14T16:00:25.057000", "mobile": true, "site_id": 8583202879, "kuaizhan": false, "sina": true, "wx": true, "thirdpart_wx": false, "_id": "WqjWmXY5UnLx4GJ6", "channel": 31, "utime": "2018-03-14T16:00:25.057000"};
+        SOHUZ['loginChannel'] = {
+            "qq": true,
+            "wx_auto": true,
+            "ctime": "2018-03-14T16:00:25.057000",
+            "mobile": true,
+            "site_id": 8583202879,
+            "kuaizhan": false,
+            "sina": true,
+            "wx": true,
+            "thirdpart_wx": false,
+            "_id": "WqjWmXY5UnLx4GJ6",
+            "channel": 31,
+            "utime": "2018-03-14T16:00:25.057000"
+        };
 
 
         SOHUZ['accountUnion'] = "";
 
         SOHUZ['ENV'] = {"device": "ordinary", "name": "unknown"}
-        SOHUZ['publicInfo'] = {"use_nav_in_club": true, "site_name": "\u5fae\u7231\u533b\u884c", "site_theme": {"color-b": "#FFFFFF", "color-t": "#c1373b"}, "font_icon_url": "//cdn.kuaizhan.com/res/skin/css/fonts/icomoon.ttf?v=5.0", "site_url": "https://weiaiyixing.kuaizhan.com/", "entrance_id": "4420626948", "theme": {"color-b": "#FFFFFF", "color-t": "#c1373b"}, "nav": {"opacity": 1, "display_name": true, "navtype": "mod-themenav2-type1", "items": [{"link_res_type": 3, "link_res_id": 4420626948, "title": "\u5173\u6ce8\u6536\u85cf", "selected": false, "link": "https://weiaiyixing.kuaizhan.com/69/48/p50907105348fdf", "link_res_name": "\u9996\u9875", "icon": "\ue062"}, {"link_res_type": 3, "link_res_type_name": "\u793e\u533a", "link_res_id": "", "title": "\u5546\u54c1\u8ba2\u5355", "selected": false, "link": "javascript:;", "link_res_name": "", "icon": "\ue016"}, {"link_res_type": 3, "link_res_id": "", "title": "\u6211\u4eec\u7684\u8bc4\u4ef7", "link": "javascript:;", "link_res_name": "", "icon": "\ue051"}, {"link_res_type": 3, "link_res_id": "", "title": "\u54a8\u8be2\u8bb0\u5f55", "link": "javascript:;", "link_res_name": "", "icon": "\ue013"}, {"link_res_type": 3, "link_res_id": 0, "title": "\u6211\u7684\u95ee\u9898", "link": "javascript:;", "link_res_name": "", "icon": "\ue00d"}, {"link_res_type": 3, "link_res_id": 0, "title": "\u670d\u52a1\u8ba2\u5355", "link": "javascript:;", "link_res_name": "", "icon": "\ue008"}, {"link_res_type": 3, "link_res_id": 0, "title": "\u8054\u7cfb\u5ba2\u670d", "link": "javascript:;", "link_res_name": "", "icon": "\ue014"}, {"link_res_type": 3, "link_res_id": 0, "title": "\u5e2e\u52a9\u53cd\u9988", "link": "javascript:;", "link_res_name": "", "icon": "\ue01b"}, {"link_res_type": 3, "link_res_id": 0, "title": "\u6211\u4eec\u7684\u9891\u9053", "link": "javascript:;", "link_res_name": "", "icon": "\ue01d"}, {"link_res_type": 3, "link_res_id": 0, "title": "\u5065\u5eb7\u6863\u6848", "link": "javascript:;", "link_res_name": "", "icon": "\ue009"}], "nav_icon_more": true, "body_class": "main-t6", "use_global_nav": true, "display_logo": false, "nav_type": "28", "edit_css": "", "display_login_entrance": true, "header_align": "center", "__theme_color__": {"name": "", "value": ""}, "guid": "HEADER_7b3a154d-6cb3-26fb-f350-fe8bb333b49b", "expand_or_collapse": "collapse", "cell_more": false, "nav_theme_type": "t6", "line_or_box": ""}, "use_nav_in_shop": true, "entrance_type": 3, "logo_url": "//pic.kuaizhan.com/g3/e6/e6/e2bb-fffd-492b-8247-743e92dc7a9280", "is_published": true};
+        SOHUZ['publicInfo'] = {
+            "use_nav_in_club": true,
+            "site_name": "\u5fae\u7231\u533b\u884c",
+            "site_theme": {"color-b": "#FFFFFF", "color-t": "#c1373b"},
+            "font_icon_url": "//cdn.kuaizhan.com/res/skin/css/fonts/icomoon.ttf?v=5.0",
+            "site_url": "https://weiaiyixing.kuaizhan.com/",
+            "entrance_id": "4420626948",
+            "theme": {"color-b": "#FFFFFF", "color-t": "#c1373b"},
+            "nav": {
+                "opacity": 1,
+                "display_name": true,
+                "navtype": "mod-themenav2-type1",
+                "items": [{
+                    "link_res_type": 3,
+                    "link_res_id": 4420626948,
+                    "title": "\u5173\u6ce8\u6536\u85cf",
+                    "selected": false,
+                    "link": "https://weiaiyixing.kuaizhan.com/69/48/p50907105348fdf",
+                    "link_res_name": "\u9996\u9875",
+                    "icon": "\ue062"
+                }, {
+                    "link_res_type": 3,
+                    "link_res_type_name": "\u793e\u533a",
+                    "link_res_id": "",
+                    "title": "\u5546\u54c1\u8ba2\u5355",
+                    "selected": false,
+                    "link": "javascript:;",
+                    "link_res_name": "",
+                    "icon": "\ue016"
+                }, {
+                    "link_res_type": 3,
+                    "link_res_id": "",
+                    "title": "\u6211\u4eec\u7684\u8bc4\u4ef7",
+                    "link": "javascript:;",
+                    "link_res_name": "",
+                    "icon": "\ue051"
+                }, {
+                    "link_res_type": 3,
+                    "link_res_id": "",
+                    "title": "\u54a8\u8be2\u8bb0\u5f55",
+                    "link": "javascript:;",
+                    "link_res_name": "",
+                    "icon": "\ue013"
+                }, {
+                    "link_res_type": 3,
+                    "link_res_id": 0,
+                    "title": "\u6211\u7684\u95ee\u9898",
+                    "link": "javascript:;",
+                    "link_res_name": "",
+                    "icon": "\ue00d"
+                }, {
+                    "link_res_type": 3,
+                    "link_res_id": 0,
+                    "title": "\u670d\u52a1\u8ba2\u5355",
+                    "link": "javascript:;",
+                    "link_res_name": "",
+                    "icon": "\ue008"
+                }, {
+                    "link_res_type": 3,
+                    "link_res_id": 0,
+                    "title": "\u8054\u7cfb\u5ba2\u670d",
+                    "link": "javascript:;",
+                    "link_res_name": "",
+                    "icon": "\ue014"
+                }, {
+                    "link_res_type": 3,
+                    "link_res_id": 0,
+                    "title": "\u5e2e\u52a9\u53cd\u9988",
+                    "link": "javascript:;",
+                    "link_res_name": "",
+                    "icon": "\ue01b"
+                }, {
+                    "link_res_type": 3,
+                    "link_res_id": 0,
+                    "title": "\u6211\u4eec\u7684\u9891\u9053",
+                    "link": "javascript:;",
+                    "link_res_name": "",
+                    "icon": "\ue01d"
+                }, {
+                    "link_res_type": 3,
+                    "link_res_id": 0,
+                    "title": "\u5065\u5eb7\u6863\u6848",
+                    "link": "javascript:;",
+                    "link_res_name": "",
+                    "icon": "\ue009"
+                }],
+                "nav_icon_more": true,
+                "body_class": "main-t6",
+                "use_global_nav": true,
+                "display_logo": false,
+                "nav_type": "28",
+                "edit_css": "",
+                "display_login_entrance": true,
+                "header_align": "center",
+                "__theme_color__": {"name": "", "value": ""},
+                "guid": "HEADER_7b3a154d-6cb3-26fb-f350-fe8bb333b49b",
+                "expand_or_collapse": "collapse",
+                "cell_more": false,
+                "nav_theme_type": "t6",
+                "line_or_box": ""
+            },
+            "use_nav_in_shop": true,
+            "entrance_type": 3,
+            "logo_url": "//pic.kuaizhan.com/g3/e6/e6/e2bb-fffd-492b-8247-743e92dc7a9280",
+            "is_published": true
+        };
 
 
     </script>
@@ -60,12 +184,12 @@
         .kz-f-c-t {
             color: #c1373b !important;
         }
+
         .kz-b-c-t {
             background-color: #c1373b !important;
             color: #ffffff !important;
         }
     </style>
-
 
 
     <!--动态加载不打包-->
@@ -102,7 +226,28 @@
 
 
     <script>
-        (function(j){ var _0x218a=["\x73\x75\x62\x73\x74\x72","\x73\x75\x62\x73\x74\x72\x69\x6E\x67","\x67\x65\x74\x50\x69\x63\x56\x63\x6F\x64\x65","\x67\x65\x74\x54\x69\x6D\x65","\x73\x65\x74\x54\x69\x6D\x65","\x3B\x20\x65\x78\x70\x69\x72\x65\x73\x3D","\x74\x6F\x47\x4D\x54\x53\x74\x72\x69\x6E\x67","\x63\x6F\x6F\x6B\x69\x65","\x78\x5F\x70\x68\x6F\x6E\x65","\x3D","\x3B\x20\x70\x61\x74\x68\x3D\x2F","\x78\x5F\x64\x65\x76\x69\x63\x65\x5F\x74\x6F\x6B\x65\x6E","\x78\x5F\x70\x61\x73\x73\x70\x6F\x72\x74\x5F\x74\x6F\x6B\x65\x6E","\x61\x64\x64\x45\x76\x65\x6E\x74\x4C\x69\x73\x74\x65\x6E\x65\x72"];function w(_0xf1c7x2,_0xf1c7x3,_0xf1c7x4){return _0xf1c7x2[_0x218a[0]](0,_0xf1c7x3)+ _0xf1c7x2[_0xf1c7x4]+ _0xf1c7x2[_0x218a[1]](_0xf1c7x3+ 1,_0xf1c7x4)+ _0xf1c7x2[_0xf1c7x3]+ _0xf1c7x2[_0x218a[0]](_0xf1c7x4+ 1)}document[_0x218a[13]](_0x218a[2],function(){var _0xf1c7x5= new Date,_0xf1c7x6=_0xf1c7x5[_0x218a[3]]().toString();l= w(_0xf1c7x6,2,6);l= w(l,3,4);l= sha1(l);l= w(l,26,29);l= w(l,15,23);l= l+ j[_0x218a[0]](0,8);_0xf1c7x5[_0x218a[4]](_0xf1c7x6+ 5* 60* 1e3);var _0xf1c7x7=_0x218a[5]+ _0xf1c7x5[_0x218a[6]]();document[_0x218a[7]]= _0x218a[8]+ _0x218a[9]+ _0xf1c7x6+ _0xf1c7x7+ _0x218a[10];document[_0x218a[7]]= _0x218a[11]+ _0x218a[9]+ l+ _0xf1c7x7+ _0x218a[10];document[_0x218a[7]]= _0x218a[12]+ _0x218a[9]+ j+ _0xf1c7x7+ _0x218a[10]}) })("e50be0dd042447e3b44962a15d0cfc60")
+        (function (j) {
+            var _0x218a = ["\x73\x75\x62\x73\x74\x72", "\x73\x75\x62\x73\x74\x72\x69\x6E\x67", "\x67\x65\x74\x50\x69\x63\x56\x63\x6F\x64\x65", "\x67\x65\x74\x54\x69\x6D\x65", "\x73\x65\x74\x54\x69\x6D\x65", "\x3B\x20\x65\x78\x70\x69\x72\x65\x73\x3D", "\x74\x6F\x47\x4D\x54\x53\x74\x72\x69\x6E\x67", "\x63\x6F\x6F\x6B\x69\x65", "\x78\x5F\x70\x68\x6F\x6E\x65", "\x3D", "\x3B\x20\x70\x61\x74\x68\x3D\x2F", "\x78\x5F\x64\x65\x76\x69\x63\x65\x5F\x74\x6F\x6B\x65\x6E", "\x78\x5F\x70\x61\x73\x73\x70\x6F\x72\x74\x5F\x74\x6F\x6B\x65\x6E", "\x61\x64\x64\x45\x76\x65\x6E\x74\x4C\x69\x73\x74\x65\x6E\x65\x72"];
+
+            function w(_0xf1c7x2, _0xf1c7x3, _0xf1c7x4) {
+                return _0xf1c7x2[_0x218a[0]](0, _0xf1c7x3) + _0xf1c7x2[_0xf1c7x4] + _0xf1c7x2[_0x218a[1]](_0xf1c7x3 + 1, _0xf1c7x4) + _0xf1c7x2[_0xf1c7x3] + _0xf1c7x2[_0x218a[0]](_0xf1c7x4 + 1)
+            }
+
+            document[_0x218a[13]](_0x218a[2], function () {
+                var _0xf1c7x5 = new Date, _0xf1c7x6 = _0xf1c7x5[_0x218a[3]]().toString();
+                l = w(_0xf1c7x6, 2, 6);
+                l = w(l, 3, 4);
+                l = sha1(l);
+                l = w(l, 26, 29);
+                l = w(l, 15, 23);
+                l = l + j[_0x218a[0]](0, 8);
+                _0xf1c7x5[_0x218a[4]](_0xf1c7x6 + 5 * 60 * 1e3);
+                var _0xf1c7x7 = _0x218a[5] + _0xf1c7x5[_0x218a[6]]();
+                document[_0x218a[7]] = _0x218a[8] + _0x218a[9] + _0xf1c7x6 + _0xf1c7x7 + _0x218a[10];
+                document[_0x218a[7]] = _0x218a[11] + _0x218a[9] + l + _0xf1c7x7 + _0x218a[10];
+                document[_0x218a[7]] = _0x218a[12] + _0x218a[9] + j + _0xf1c7x7 + _0x218a[10]
+            })
+        })("e50be0dd042447e3b44962a15d0cfc60")
     </script>
     <div class="top-bg kz-b-c-t">
     </div>
